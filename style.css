@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: auto;
+    height: 100vh;
+    background-color: peachpuff;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.head{
+    width: auto;
+    padding: 0.2rem 2rem;
+    height: 10vh;
+    background-color: white;
+    color: black;
+    margin: 1rem;
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.3rem; font-weight: 800; letter-spacing: 0.3rem;
+}
+form{
+    height: auto; 
+    width: 100%;
+    /* background-color: aqua; */
+}
+/* .content{
+    height: auto; 
+    width: 100%;
+    /* background-color: aqua; 
+}*/
+
+.contInp{
+    height: auto;
+    width: 100%;
+    /* background-color: blue; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contBtn{
+    height: auto;
+    width: 100%;
+    margin-top: 1vh;
+    /* background-color: purple; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reset_btn{ background-color:rgb(152, 152, 255) ;}
+/* #delete_btn{ background-color:rgb(255, 142, 142) ;} */
+
+.input1{
+    padding: 0.7vw 0.7vw;
+    border: none; border-radius: 0.3rem;
+    width: 15%;
+    margin-right: 5px;
+}
+.input2{
+    padding: 0.7vw 0.7vw;
+    border: none; border-radius: 0.3rem;
+    width: 40%;
+    margin-right: 5px;
+}
+.btn_c{
+    padding: 0.7vw 1vw;
+    border: none; border-radius: 0.3rem;
+    background-color: lightgreen;
+    margin-left: 5px; cursor: pointer;
+}
+.btn_cross{
+    padding: 10px 10px;
+    height: 30px;
+    border: none; border-radius: 5rem;
+    background-color: red; color: azure;
+    /* margin-left: 5px;  */
+    cursor: pointer;
+}
+
+.todoList{
+    /* height: 20vh; */
+    width: 70%;
+    /* background-color: rgb(255, 255, 255); */
+    margin: 2vh;
+    border-radius: 1rem;
+    padding: 1rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.listElem{
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    width: 100%; border-radius: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

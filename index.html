@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="css_reset.css" /> -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">TO DO LIST</div>
+      <form>
+        <div class="contInp">
+          <input
+            id="inp1"
+            class="input1"
+            type="text"
+            placeholder="reminder Title"
+          />
+          <input
+            id="inp2"
+            class="input2"
+            type="text"
+            placeholder="Reminder Description"
+          />
+        </div>
+        <div class="contBtn">
+          <button id="store_btn" class="btn_c" type="button">Store</button>
+          <button id="reset_btn" class="btn_c" type="reset">Reset</button>
+          <!-- <button id="delete_btn" class="btn_c" type="button">Delete</button> -->
+        </div>
+      </form>
+      <div id="todo" class="todoList">
+        <p> No reminder yet</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
