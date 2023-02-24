@@ -108,3 +108,13 @@ form{
     justify-content: space-between;
     align-items: center;
 }
+.listElem_afterDel{
+    display: none;
+    /* background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    width: 100%; border-radius: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
